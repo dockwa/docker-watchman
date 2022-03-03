@@ -1,0 +1,8 @@
+# vim: ft=conf
+
+# We intentionally use v4.9.0 as it has a broad range of compatibility, enough
+# of a feature set to appease Sorbet's hard dependency on Watchman, and a much
+# simpler (and more controllable) build stage that doesn't pull its own
+# dependencies at build time with a Python script.
+WATCHMAN_VERSION=4.9.0
+WATCHMAN_SHA256=1f6402dc70b1d056fffc3748f2fdcecff730d8843bb6936de395b3443ce05322
